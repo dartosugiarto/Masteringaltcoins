@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="light dark" />
+<title>Mastering Altcoins: Panduan Lengkap Cryptocurrency</title>
+
+<meta name="description" content="Panduan komprehensif untuk menguasai pasar altcoin, mulai dari riset teknikal, naratif, fundamental, hingga strategi smart money untuk memaksimalkan keuntungan di dunia cryptocurrency.">
+<meta name="author" content="Akademi Crypto">
+<meta property="og:title" content="Mastering Altcoins: Panduan Lengkap Cryptocurrency">
+<meta property="og:description" content="Dari riset teknikal hingga strategi smart money, buku ini adalah panduan lengkap Anda untuk menaklukkan pasar altcoin.">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="id_ID">
+
+<style>
+:root{
+  --bg:#f4f6f8;
+  --paper:#ffffff;
+  --ink:#1A1A1A;
+  --muted:#757575;
+  --hair:#E6E8EB;
+  --accent:#336699;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0d0f12;
+    --paper:#121417;
+    --ink:#E0E0E0;
+    --muted:#9aa3ad;
+    --hair:#22262b;
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,Arial,sans-serif;
+  font-size:16px; line-height:1.8;
+  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+}
+.wrapper{max-width:680px;margin-inline:auto;padding:4rem 1.5rem}
+header{margin-bottom:3rem;text-align:left}
+h1{font-size:1.8rem;font-weight:600;line-height:1.25;letter-spacing:-0.02em;margin:0 0 .5rem 0;text-wrap:balance}
+.byline{font-size:.9rem;color:var(--muted)}
+.byline strong{font-weight:500;color:var(--ink)}
+article{background:transparent}
+section+section{margin-top:2.5rem}
+h2{
+  font-size:1.2rem;font-weight:600;line-height:1.4;
+  margin:2rem 0 .75rem 0; padding-bottom:.5rem; border-bottom:1px solid var(--hair);
+  text-align:left;
+}
+p{margin:0 0 1.25rem 0; font-size:1.05rem; text-wrap:pretty; text-align:left}
+p:last-of-type{margin-bottom:0}
+.block{
+  background:var(--paper);
+  border:1px solid var(--hair);
+  border-radius:16px;
+  padding:20px;
+  display:flex; justify-content:center; align-items:center;
+  margin:1rem 0 1.25rem 0;
+  box-shadow:0 1px 2px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark){
+  .block{box-shadow:0 1px 2px rgba(0,0,0,.5)}
+}
+.block svg{
+  width:44px; height:44px; stroke-width:2; fill:none;
+  stroke-linecap:round; stroke-linejoin:round; stroke:var(--accent);
+}
+.buyLink{
+  display:flex; align-items:center; justify-content:center; gap:.5rem;
+  width:100%; padding:.9rem 1.2rem; background:var(--accent); color:#fff;
+  font-size:1rem; font-weight:500; text-decoration:none; border-radius:10px; text-align:center;
+  transition:transform .12s ease, background .25s ease;
+}
+.buyLink svg{width:22px; height:22px; stroke:#fff; stroke-width:2; fill:none}
+.buyLink:hover{background:color-mix(in srgb, var(--accent) 85%, black 15%); transform:translateY(-1px)}
+::selection{background:color-mix(in srgb, var(--accent) 20%, transparent)}
+@media print{
+  body{font-size:12pt; background:#fff}
+  .wrapper{padding:0}
+  .block{box-shadow:none}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <header role="banner">
+    <h1>Mastering Altcoins</h1>
+    <div class="byline">Penulis: <strong>Akademi Crypto</strong></div>
+  </header>
+
+  <article role="article">
+    <section id="prakata" aria-labelledby="p0">
+        <h2 id="p0">Prakata</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+        </div>
+        <p>Segala puja dan puji syukur kami ucapkan kepada Sang Pencipta karena sekali lagi, atas izin-Nya kami dari Akademi Crypto diberikan kesempatan untuk kembali menghadirkan sebuah karya untuk dunia kripto di Indonesia yang berjudul: Mastering Altcoins. Buku ini merupakan buku keempat yang kami terbitkan setelah sukses dengan berbagai series sebelumnya: Crypto Trading Guide (CTG), Crypto Investing Principles (CIP), & Crypto Smart Money (CSM).</p>
+        <p>Karya ini kami dedikasikan untuk seluruh komunitas kripto di Indonesia sehingga bisa memberikan sumbangsih ilmu yang berguna bagi segala pihak. Kami ucapkan terima kasih banyak kepada seluruh pendukung Akademi Crypto, Penerbit, dan seluruh pihak lain yang terlibat dalam proses pembuatan, pencetakan, dan penyebaran buku ini. Kami harap semua pihak menghargai segala upaya dan jerih payah dari kami dan hanya membeli buku yang asli. Segala bentuk apresiasi akan kami hargai sebagai dorongan untuk terus berkarya membuat series-series buku selanjutnya.</p>
+        <p>Akhir kata, kami ucapkan selamat membaca dan mendalami dunia kripto khususnya pasar altcoins. Semangat!</p>
+    </section>
+
+    <section id="bab1" aria-labelledby="b1">
+        <h2 id="b1">BAB 1: INTRODUCTION</h2>
+    </section>
+
+    <section id="intro1" aria-labelledby="i1">
+        <h2 id="i1">INTRODUCTION #1: Kalau Ada Cara yang Sulit Kenapa Harus Cara yang Mudah?</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+        </div>
+        <p>Kita semua di pasar kripto dipertemukan oleh satu hal yang sama: harapan akan kekayaan. Apabila kalian di sini "In it for the tech", atau hanya di crypto untuk euforia maka saya rasa kalian membohongi diri kalian sendiri. Secara alamiah, tidak ada manusia di dunia ini yang "mau merugi", apalagi terkait dengan keadaan finansial yang mana merupakan concern utama dan tujuan utama manusia modern.</p>
+        <p>Ketika kita berbicara mengenai cara memperoleh keuntungan di pasar kripto, ada banyak sekali hal yang bisa dilakukan: dari cara yang mudah hingga cara yang sulit. Membeli Bitcoin rutin setiap bulan merupakan langkah yang paling mudah untuk memperoleh keuntungan, namun karena "mudah" pasti semua orang bisa melakukanya sehingga tingkat keuntungan yang didapatkan juga "relatif terbatas". Lalu kira-kira apa acara yang "sulit" namun memberikan "keuntungan tinggi" di market kripto? Caranya adalah dengan berspekulasi di pasar altcoins.</p>
+        <p>Altcoins merupakan singkatan untuk "alternative coins" yang mana merupakan istilah untuk koin lain selain Bitcoin. Altcoins secara alami disebut sebagai aset "spekulasi" karena nature-nya yang memiliki fluktuasi harga yang tinggi, ketidakpastian, dan tidak ada "jaminan" bahwa aset altcoins tersebut akan bertahan pada siklus pasar selanjutnya. Tidak ada altcoins yang abadi, 95% dari mereka akan mati dan tidak pernah ada di eksistensi lagi. Namun pasti timbul suatu pertanyaan mendasar: apabila kita tahu bahwa kebanyakan dari altcoins akan mati, lalu mengapa kita masih harus membelinya? Jawabannya adalah memperoleh keuntungan sebanyak-banyaknya karena memang potensi keuntungan dari altcoins sangat luar biasa.</p>
+        <p>Alasan paling mendasar kenapa pasar Altcoins "lebih menarik" dibandingkan dengan "hanya membeli Bitcoin" adalah valuasinya yang masih sangat rendah. Per Mei 2024, valuasi dari keseluruhan pasar kripto berada pada angka $2.27 triliun yang mana dari jumlah tersebut valuasi dari Bitcoin saja sebanyak $1.2 triliun. Hal tersebut menunjukkan bahwa: semua Altcoins yang ada di pasar sangat "kecil sekali" nilainya sehingga potensi yang dimiliki tak terbatas (sangat besar).</p>
+        <p>Fakta yang ada, kenaikan altcoins pada tahun 2021 jauh lebih "meriah" dibandingkan dengan tahun 2018. Hal tersebut dipengaruhi faktor bahwa pada tahun 2021 institusi juga ikut meramaikan pasar, membuat puluhan ribu aset altcoins secara serempak mengalami kenaikan ratusan persen, bahkan sampai ratusan ribu persen dalam waktu beberapa bulan saja. Lalu pertanyaan terbesarnya adalah: lebih baik cari yang "aman saja" beli Bitcoin atau coba berselancar di pasar altcoins? Seperti yang telah diungkapkan sebelumnya: kalau ada cara yang sulit kenapa harus cara yang mudah.</p>
+    </section>
+
+    <section id="intro2" aria-labelledby="i2">
+        <h2 id="i2">INTRODUCTION #2: Paradox of Choices</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+        </div>
+        <p>Pasar altcoins memang sangat menjanjikan, bahkan apabila kita memilih dengan jeli maka kita akan memperoleh keuntungan yang lebih tinggi dibandingkan Bitcoin. Sulitnya memilih karena "pilihan yang terlalu banyak" menghadapkan kita pada teori Paradox of Choice yang diungkapkan oleh Barry Schwartz pada tahun 2004. Teori ini mengemukakan bahwa terlalu banyak pilihan faktanya memberikan ketidakpuasan.</p>
+        <p>Menurut data dari Statista saat ini ada kurang lebih 9.000 aset altcoins yang ada (terdaftar dan aktif). Jumlah tersebut terlihat "sangat banyak" yang mana kenyataanya pasti jumlahnya 10 kali lebih banyak karena hampir setiap hari selalu lahir proyek altcoins baru. Banyaknya jumlah altcoins yang tidak diimbangi dengan jumlah pemodal yang setara, menyebabkan minimnya aliran dana yang masuk "secara merata" ke berbagai altcoins yang ada. Tidak hanya menyebabkan persaingan yang sangat kompetitif, tetapi minimnya arus dana menyebabkan pergerakan harga "eksplosif" yang ada pada berbagai proyek altcoins "harus bergantian".</p>
+    </section>
+    
+    <section id="intro3" aria-labelledby="i3">
+        <h2 id="i3">INTRODUCTION #3: Let's Call it "A Narrative"</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+        </div>
+        <p>Menyadari minimnya modal (likuiditas) di pasar kripto, berbagai "smart money" menggunakan "cerita" melalui media untuk membentuk suatu persepsi bahwa pasar kripto sedang bergerak dalam suatu sektor tertentu. Permainan persepsi publik ini disebut juga dengan "naratif" atau "narasi" dalam pasar kripto. Fungsi dari adanya naratif adalah "pemusatan modal secara komunal" agar para ritel turut mendukung arah pergerakan sektor yang saat ini sedang diinvestasikan oleh para smart money.</p>
+        <p>Terdapat tiga alasan fundamental yang menyebabkan terciptanya crypto narrative: tujuan pribadi smart money, kebutuhan publik, dan perilaku herding investor. Berbagai platform yang sering kali digunakan dalam penyebaran naratif antara lain Jurnal Riset, Media Sosial, Influencers, dan Pers. Perlu dipahami bahwa berbagai platform tersebut "tidak ada yang netral". Proses penyiaran berita secara massal dilakukan untuk mencari exit liquidity atau para ritel yang "mau membeli di atas", setelah para smart money melakukan "akumulasi di bawah".</p>
+        <p>Lalu, apakah kita sebagai ritel harus selalu menjadi "yang terakhir" mengetahui sesuatu? Apakah ada cara agar kita bisa mengetahui "sesuatu lebih dahulu"? Jawabannya adalah sangat bisa! Kita perlu melakukan tahap-tahap untuk melakukan narrative trading yang mana akan dibahas lebih lanjut.</p>
+    </section>
+    
+    <section id="intro4" aria-labelledby="i4">
+        <h2 id="i4">INTRODUCTION #4: Apakah 2024 Tahun Altcoins?</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+        </div>
+        <p>Sama seperti Bitcoin, altcoins juga memiliki "waktu"-nya sendiri. Terdapat siklus di mana Bitcoin akan mengalami kenaikan (Bitcoin Season) dan terdapat siklus di mana Altcoins akan mengalami kenaikan (Altcoin Season). Ketika Altseason terjadi, semua pasar altcoins mengalami kenaikan serempak. Kapan altcoins akan mengalami altseason?</p>
+        <p>Untuk menjawab pertanyaan tersebut, kita bisa menggunakan chart TOTAL 3 (total market cap kripto selain Bitcoin, Ethereum, dan Stablecoins) serta Bitcoin Dominance. TOTAL 3 secara jelas menunjukkan keadaan yang berpotensi sangat bullish pada Bulan Mei 2024. Ditambah lagi data historis menunjukkan bahwa 240 hari setelah halving dominansi dari Bitcoin akan menurun dan altcoins akan mengalami kenaikan yang signifikan. Peningkatan dari TOTAL 3 dan penurunan dari Bitcoin Dominance (BTC.D) adalah hal yang kemungkinan besar akan terjadi di tahun 2024.</p>
+        <p>Selain dari segi teknikal, secara fundamental pasar kripto terutama altcoins akan mengalami peningkatan yang signifikan. Berbagai pemain besar (Tradfi) yang masuk dari demand ETF akan sangat tinggi. Maka dari itu, tidak ada saat terbaik untuk mulai masuk ke pasar altcoins selain saat ini juga!</p>
+    </section>
+
+    <section id="intro5" aria-labelledby="i5">
+        <h2 id="i5">INTRODUCTION #5: I'm Ready to Be An Altcoins Trader!</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+        </div>
+        <p>Pada awal kita memulai apa pun akan lebih sulit dibandingkan ketika kita menjalaninya. Berbagai kompleksitas teknis, volatilitas pasar, serta paradox of choices hanyalah "sebagian kecil" dari yang kita hadapi ketika kita sudah "menyelam" nanti. Percayalah sebelum dimulai ini akan menjadi sulit dan ketika sudah dijalani akan menjadi semakin sulit lagi.</p>
+        <p>Sama halnya dengan segala hal di dunia ini: apabila sulit untuk dilakukan maka potensi keuntungan yang diperoleh akan jauh lebih tinggi. Meskipun demikian, percayalah bahwa menggantungkan nasib pada sesuatu yang "pasti" jauh lebih tidak pasti dibandingkan mengadu nasib kita pada sesuatu yang "tidak pasti". Setidaknya ketika kita mengadu nasib pada sesuatu yang "tidak pasti" tersebut, kendali ada di tangan kita. Mari kita berselancar!</p>
+    </section>
+
+    <section id="bab2" aria-labelledby="b2">
+        <h2 id="b2">BAB 2: ADVANCED TECHNICAL RESEARCH</h2>
+    </section>
+
+    <section id="tech1" aria-labelledby="t1">
+        <h2 id="t1">ADVANCED TECHNICAL RESEARCH #1: Kenapa Analisis Teknikal Diperlukan di Altcoins?</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+        </div>
+        <p>Pada bagian ini akan lebih didalami terkait dengan "advanced technical analysis" atau analisa teknikal terapan. Faktanya tanpa adanya technical research kita tidak akan mengetahui "di mana" dan "kapan" harus melakukan pembelian dan penjualan. Fungsi dari technical research adalah untuk "mengantisipasi", bukan memprediksi "apa yang akan terjadi".</p>
+        <p>Mengetahui kapan harus masuk sangat berkaitan dengan risk to reward yang kita peroleh. Menerapkan strategi entry yang tepat dapat memberikan dua hal. Pertama, dari perspektif "jumlah koin lebih banyak". Ketika kita melakukan technical research dan berhasil mengetahui di mana "titik ideal" untuk melakukan pembelian maka poin pembelian kita bisa menjadi lebih optimal. Kedua, mengetahui kapan saat yang tepat untuk melakukan entry juga berdampak positif pada psikologis yang kita miliki.</p>
+        <p>Mengetahui kapan harus exit sama pentingnya dengan mengetahui kapan harus entry. Dengan strategi exit yang benar kita bisa memaksimalkan keuntungan yang kita miliki dan kita bisa melakukan compounding portofolio yang kita miliki.</p>
+    </section>
+
+    <section id="tech2" aria-labelledby="t2">
+        <h2 id="t2">ADVANCED TECHNICAL RESEARCH #2: Kenapa Multiple Entry Strategy Harus Dilakukan?</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+        </div>
+        <p>Banyak pemula memiliki mindset: "One shoot one kill" yang mana menyebabkan mereka hanya mengandalkan entry sekali saja. Padahal kenyataanya "smart money" juga menggunakan metode multiple entry ketika mereka melakukan akumulasi dan juga menggunakan multiple exit strategy. Idealnya "mau masuk" dan "mau keluar" di market harus beberapa kali karena altcoins memiliki banyak sekali variabel yang memengaruhi.</p>
+        <p><strong>Selalu Gunakan Timeframe Besar:</strong> Untuk melihat trend pergerakan harga, timeframe yang digunakan adalah monthly chart, untuk melihat pattern adalah weekly chart, dan untuk melakukan entry adalah daily chart. Pemain besar selalu lihat "the bigger picture".</p>
+        <p><strong>Gunakan Bantuan Order Block (OB):</strong> Order block (OB) merupakan istilah untuk mengidentifikasi area signifikan di mana institusi besar melakukan pesanan beli dan jual. OB pada weekly chart sangat "overpowered" untuk mengidentifikasi di mana para "smart money" ini bermain. Rumusnya: weekly bullish OB untuk identifikasi bottom, daily bearish OB untuk identifikasi area jual.</p>
+        <p><strong>Buat Entry Grid dan Exit Grid:</strong> Entry dan exit grid yang ideal adalah 4 kali dan sekali masuk posisi 25% dari total alokasi kita terhadap aset tersebut. Ini membantu dalam menumbuhkan portofolio altcoins secara strategis.</p>
+    </section>
+
+    <section id="tech3" aria-labelledby="t3">
+        <h2 id="t3">ADVANCED TECHNICAL RESEARCH #3: Understanding The Flow and The Grab</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="5 9 2 12 5 15"></polyline><polyline points="9 5 12 2 15 5"></polyline><polyline points="15 19 12 22 9 19"></polyline><polyline points="19 9 22 12 19 15"></polyline><line x1="2" y1="12" x2="22" y2="12"></line><line x1="12" y1="2" x2="12" y2="22"></line></svg>
+        </div>
+        <p>Pasar kripto penuh dengan "tipu daya". Manipulasi sangat mudah terjadi, terutama pada aset yang sudah di-listing di pasar derivatif. Fakta ini bisa menjadi "peluang" untuk mengetahui kapan saat yang tepat untuk masuk posisi: yaitu ketika terjadi manipulasi. Aksi "menggunduli" posisi para trader ini disebut dengan "The Grab".</p>
+        <p><strong>The Flow:</strong> Akademi Crypto Trading Paradigm (ACTP) menjelaskan bahwa market berjalan sesuai "flow". Jika terjadi upflow, likuiditas pembeli lebih banyak. Jika downflow, likuiditas penjual lebih banyak. Antara upflow dan downflow selalu ada "fase pause".</p>
+        <p><strong>The Grab:</strong> The grab adalah fase di mana terjadi "manipulasi" dengan cara melikuidasi posisi trader sebelum kenaikan harga. Ini terjadi ketika harga menembus "area of value" lalu melakukan v-shapping dengan cepat. The grab sering disebut juga liquidity grab, fakeout, atau stop hunt. Konsep ini bisa diterapkan pada semua timeframe, namun idealnya weekly - daily.</p>
+    </section>
+
+    <section id="tech4" aria-labelledby="t4">
+        <h2 id="t4">ADVANCED TECHNICAL RESEARCH #4: "Facade" Pemicu Altseason</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+        </div>
+        <p>Di pasar kripto, kami menggunakan "terms" khusus untuk alat konfirmasi bias, yaitu "The Facade". The facade digunakan untuk melihat apakah kecenderungan upflow akan berlanjut atau terjadi potensi reversal.</p>
+        <p><strong>Bullish Bouncing Ball:</strong> Facade ini sering terlihat pada altcoins low to medium cap. Terinspirasi dari bola yang memantul: pantulan awal eksplosif, lalu melambat. Pump pertama dari smart money serupa pantulan pertama, kemudian harga melambat. Retest mendekati area dasar adalah peluang membeli.</p>
+        <p><strong>Bullish Burj Khalifa:</strong> Facade ini menandakan reversal bullish dari pergerakan yang sangat bearish. Bentuknya seperti Gedung Burj Khalifa terbalik, di mana harga turun diiringi peningkatan volume jual, lalu muncul volume beli yang jauh lebih tinggi saat volume jual "peak", dan harga berbalik arah.</p>
+        <p><strong>Bullish Triangle Revival:</strong> Facade ini sering ditemukan sebelum altcoin naik signifikan. Terbentuk setelah leading trend yang bearish, diikuti time-based capitulation yang lama. Bentuknya seperti segitiga menanjak. Hampir 70% "face revival" di pasar altcoins dimulai dengan facade ini.</p>
+    </section>
+
+    <section id="tech5" aria-labelledby="t5">
+        <h2 id="t5">ADVANCED TECHNICAL RESEARCH #5: Mana yang Harus Dipercaya?</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+        </div>
+        <p>Tiga alat yang sering digunakan untuk mengantisipasi pergerakan harga altcoins adalah Bitcoin Dominance (BTC.D), Altcoin Season Index, dan Total 3. Dari ketiga alat tersebut, mana yang paling relevan?</p>
+        <p>Jawaban singkatnya adalah <strong>TOTAL 3</strong> jauh lebih relevan. BTC.D seringkali bergerak "sideways" sementara altcoin dalam naratif tertentu mengalami peningkatan signifikan. Altcoin Season Index adalah indikator yang memberikan label "Altseason telah terjadi" setelah 90 hari, yang artinya sudah terlambat.</p>
+        <p>TOTAL 3 sangat "responsif" untuk dijadikan alat deteksi. Apabila TOTAL 3 ada indikasi naik, altcoin juga berpeluang naik, dan sebaliknya. Mengetahui siklus pergerakan TOTAL 3 lebih "masuk akal" karena ini adalah "chart saat ini", bukan indikator yang "sudah terjadi".</p>
+    </section>
+
+    <section id="tech6" aria-labelledby="t6">
+        <h2 id="t6">ADVANCED TECHNICAL RESEARCH #6: Diversifikasi Naratif, Kapitalisasi, & Waktu</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><line x1="6" y1="3" x2="6" y2="15"></line><circle cx="18" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><path d="M18 9a9 9 0 0 1-9 9"></path></svg>
+        </div>
+        <p><strong>Narrative Diversification:</strong> Membatasi risiko dengan tidak mengandalkan satu naratif saja, melainkan berinvestasi pada beberapa naratif sekaligus. Contohnya, berinvestasi pada naratif Spatial Computing & Artificial Intelligence (AI) secara bersamaan.</p>
+        <p><strong>Cap Diversification:</strong> Berinvestasi pada satu naratif dengan membeli aset di semua tier market cap (low, medium, & big caps). Tujuannya adalah memanfaatkan semua lini potensi keuntungan, dengan jangkar kuat pada big caps dan risiko ekstrim pada low caps. Alokasi ideal untuk 5 koin: big caps 1 (20%), big caps 2 (20%), medium caps 1 (20%), small caps 1 (20%), dan small caps 2 (20%).</p>
+        <p><strong>Time Diversification:</strong> Berkaitan dengan kapan membeli dan menjual. Langkah ideal adalah menyelesaikan pembelian pada satu bulan awal. Bulan pertama, beli berkala 3-4 kali. Bulan kedua, terapkan moon bag strategy (ambil modal, biarkan sisanya berjalan). Bulan selanjutnya, jual sisa atau hold.</p>
+    </section>
+
+    <section id="bab3" aria-labelledby="b3">
+        <h2 id="b3">BAB 3: ADVANCED NARRATIVE RESEARCH</h2>
+    </section>
+
+    <section id="narr1" aria-labelledby="n1">
+        <h2 id="n1">ADVANCED NARRATIVE RESEARCH #1: When It's on The News, Just Abort The Mission</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
+        </div>
+        <p>Naratif memang "diciptakan" oleh sebagian orang. Itulah mengapa kita harus mengidentifikasi sesuatu "sebelum akhirnya terjadi" dan ramai diperbincangkan. Apabila sesuatu sudah disiarkan di berita, artinya "sudah terlambat" karena smart money cenderung mencari exit liquidity. Kebanyakan orang berpikir, "Apabila sudah masuk berita, saatnya membeli". Itulah mengapa 97% trader/investor gagal.</p>
+        <p>Untuk menjadi contrarian sejati, "jangan percaya apa kata berita" dan anggap berita sebagai "top signal" untuk mengambil keuntungan. Lalu, dari mana kita bisa melakukan riset? Tetap boleh menggunakan berita, namun pilah. Hindari outlet berita "mainstream" dan fokus pada yang "indie".</p>
+        <p>Kedua, "selalu fokus pada sebab bukan akibat". Kebanyakan orang melihat berita tentang "sesuatu yang sudah terjadi". Contohnya naratif metaverse, ketika "akibat"-nya muncul di berita, naratif berakhir. "Sebab"-nya? Peningkatan demand GPU 39% selama 2020 dan peningkatan regulasi Virtual Reality (VR) di awal 2021.</p>
+    </section>
+
+    <section id="narr2" aria-labelledby="n2">
+        <h2 id="n2">ADVANCED NARRATIVE RESEARCH #2: Big Data for Aggregation</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+        </div>
+        <p>"The real currency in this modern world is attention and information". Dalam kripto, informasi adalah "emas". Bagaimana kita menang bila tidak seberkuasa para 'insider'? Jawabannya adalah menggunakan big data untuk agregasi informasi. Big data adalah platform yang memungkinkan pencarian data pada volume besar. Kita akan fokus pada platform Big Data untuk mencari tren spesifik di kripto. Selalu ingat, "trend is your friend".</p>
+        <p>Beberapa platform yang bisa digunakan: Google Trend, Bing Trends, SEMrush, Ahrefs, Social Mention. Yang paling reliabel adalah Google Trend karena banyaknya pengguna. Banyak fund manager dan lembaga riset kredibel menggunakan Google Trend. Melalui Google Trend, kita bisa melihat "keadaan" lapangan yang sesungguhnya dan data ini jauh lebih relevan.</p>
+    </section>
+
+    <section id="narr3" aria-labelledby="n3">
+        <h2 id="n3">ADVANCED NARRATIVE RESEARCH #3: Focus on Big Narratives</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+        </div>
+        <p>Salah satu kesalahan pemula adalah berpartisipasi pada semua hal. Semakin banyak naratif yang kita investasikan, semakin banyak pula risiko naratif tersebut tidak berjalan. Semakin besar suatu naratif, semakin besar pula potensinya untuk tetap ada. Naratif yang "sangat niche" memiliki peluang untuk tidak terjadi sama sekali.</p>
+        <p>Fantasi "what if" seringkali menyelimuti: "apa jadinya bila saya jadi orang pertama yang berinvestasi pada suatu naratif?". Faktanya, ini sangat sulit terjadi karena naratif kecil kemungkinan tidak berkembang. Maka dari itu, fokus pada narasi besar seperti DeFi, RWA, AI, DePin, jauh lebih baik. Ditambah lagi, berbagai naratif besar pun hanya akan bertahan 2-4 bulan.</p>
+    </section>
+
+    <section id="narr4" aria-labelledby="n4">
+        <h2 id="n4">ADVANCED NARRATIVE RESEARCH #4: The Walmart Concept</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+        <p>Sering terjadi kita "ketinggalan kereta" dan naratif besar sudah jalan. Lalu, apa yang harus dilakukan? Jawabannya adalah mencari kereta keberangkatan kedua. Pasar kripto adalah tempat "kesempatan tak terbatas". Ketika kita melewatkan sesuatu yang besar, semua orang akan mencoba mereplikasinya.</p>
+        <p>Ini membawa kita pada "The Walmart Concept" atau "The Rip off Concept". Konsep ini mengungkapkan: ketika kita ketinggalan aset pioneer, beberapa saat kemudian selalu ada pengikutnya (Project followers) dengan skema, performa, dan kegunaan "mirip-mirip". Kita bisa membeli versi "Walmart"-nya jika ketinggalan versi mewahnya.</p>
+        <p>Tiga elemen kunci yang harus dipenuhi: 1) Kandidat harus memiliki kesamaan sektor. 2) Harus ada perbedaan market cap yang signifikan. 3) Kandidat harus memiliki setidaknya "use case" yang serupa.</p>
+    </section>
+
+    <section id="narr5" aria-labelledby="n5">
+        <h2 id="n5">ADVANCED NARRATIVE RESEARCH #5: Don't Trust Your Eyes, Use More Comprehensive Tools</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+        </div>
+        <p>Salah satu cara melakukan narrative trading secara kuantitatif adalah memperhatikan volume perdagangan. Potensi pergerakan naratif bisa "dilacak" jika ada lonjakan volume mingguan. Namun, karena basisnya nominal, sulit memperhatikan tren.</p>
+        <p>Salah satu alat analisis naratif yang bisa digunakan adalah alat kuantitatif dari Cryptokoryo via Dune Analytics. Berbagai alat gratis yang tersedia antara lain narrative performances index, volume per narratives, narratives index, dan narratives vs bitcoin.</p>
+        <p>Narratives breakdown adalah alat untuk melihat kinerja dan sentimen pasar terhadap naratif tertentu. Fungsinya: mengetahui kecenderungan pergerakan, mengetahui apakah naratif sedang di bawah (undervalue) atau di atas (overvalue), dan melihat interseksi antara dua naratif yang berhubungan. Alat ini sangat berguna untuk tracking pergerakan naratif tertentu.</p>
+    </section>
+
+    <section id="narr6" aria-labelledby="n6">
+        <h2 id="n6">ADVANCED NARRATIVE RESEARCH #6: Build Narratives Around Your Own Crypto Investment</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon><line x1="12" y1="22" x2="12" y2="15.5"></line><polyline points="22 8.5 12 15.5 2 8.5"></polyline><polyline points="2 15.5 12 8.5 22 15.5"></polyline><line x1="12" y1="2" x2="12" y2="8.5"></line></svg>
+        </div>
+        <p>Naratif bukan hanya tentang sesuatu "dari luar", namun sesuatu "dari dalam" bisa menjadi naratif yang berdampak positif. Harga altcoin cenderung naik menjelang test net, mainnet, atau peluncuran produk.</p>
+        <p>Itulah mengapa memperhatikan roadmap dari berbagai altcoin sangat penting. Kita bisa tahu kapan saat yang tepat untuk membeli sebelum hype dari event internal tercium di luar. Apabila kita perhatikan, harga Ethereum selalu naik setelah terjadi upgrade dalam jaringannya. Terakhir, setelah Dencun upgrade, kita juga melihat harga Ethereum mulai beranjak naik. Perhatikan internal dari suatu proyek untuk melihat potensi naratif "dari dalam".</p>
+    </section>
+    
+    <section id="bab4" aria-labelledby="b4">
+        <h2 id="b4">BAB 4: ADVANCED FUNDAMENTAL RESEARCH</h2>
+    </section>
+
+    <section id="fund1" aria-labelledby="f1">
+        <h2 id="f1">ADVANCED FUNDAMENTAL RESEARCH #1: Inside of The Iceberg</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </div>
+        <p>Analisa fundamental yang biasa kita lakukan dengan platform data kripto dasar bagaikan "puncak gunung es". Kita hanya melihat 30%-nya. Padahal, 70% "asli"-nya tidak terlihat. Dalam bab ini, akan dibahas cara melakukan analisa "inside of the iceberg" untuk mengetahui yang tidak terlihat. Dengan mengetahui lebih dalam, kita dapat mengetahui nilai intrinsik yang sesungguhnya.</p>
+    </section>
+
+    <section id="fund2" aria-labelledby="f2">
+        <h2 id="f2">ADVANCED FUNDAMENTAL RESEARCH #2: "Berlian Itu Ditemukan, yang Terlihat Bersinar Itu Bintang"</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 17 17 23 15.79 13.88"></polyline></svg>
+        </div>
+        <p>Ketika kita mencari altcoin gems dan lebih dari 10 akun centang biru membuat calls, percayalah itu bukan berlian. Kita hanya akan menjadi exit liquidity. Berlian yang sesungguhnya hanya kita sendiri yang bisa melihatnya. Sama seperti Bitcoin, mereka yang menjadi "miliarder muda" adalah yang membelinya di tahun 2013, saat belum ada yang meliriknya.</p>
+        <p>"The greater fools theory" itu nyata. Ketika semua orang berharap pada hal yang sama, itu tidak akan terjadi. Untuk berhasil, kita harus melakukan kebalikan dari 97% "mayoritas yang gagal". Beli ketika takut, jual ketika serakah. Ada perbedaan antara "altcoin gems" dan "good project". Jika proyek fundamentalnya bagus dan tidak ada hype, itu "gems". Jika fundamental bagus dan didukung hype, itu "good project". Para profesional menyukai kesunyian dan membenci keramaian.</p>
+    </section>
+
+    <section id="fund3" aria-labelledby="f3">
+        <h2 id="f3">ADVANCED FUNDAMENTAL RESEARCH #3: It's All Down to Value</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        </div>
+        <p>Sering terdengar: "Value tidak penting, yang penting hype". Ini salah. Value adalah akar keberhasilan. Mari kita bedah sektor dengan "value". Salah satunya adalah decentralized physical infrastructure (DePin). Inovasi teknologinya meningkatkan efisiensi layanan cloud network. Berbagai proyek DePin menawarkan harga 10-20x lebih murah dari sektor WEB2.</p>
+        <p>Selain DePin, ada Real World Asset (RWA). Sektor ini diincar institusi besar seperti BlackRock karena membuka likuiditas pasar global terkait aset fisik. Kunci utamanya adalah "fractional ownership", memungkinkan investor membeli sebagian kecil dari suatu aset. Diperkirakan valuasi sektor tokenisasi mencapai $4B pada 2024 dan akan terus tumbuh.</p>
+        <p>"Value" lain yang patut dipelajari adalah teknologi layer-2. Fungsi utamanya meningkatkan skalabilitas, kecepatan, dan efisiensi. Contohnya ZK-Rollups yang membuat fee transaksi jauh lebih murah. Upgrade Dencun Ethereum pada Maret 2024 "membuka" dan "menciptakan" value pada proyek layer-2. Seringkali sesuatu dihargai "lebih mahal" atau "terlalu murah" dibandingkan value aslinya. Waktu yang akan menjawab segalanya.</p>
+    </section>
+
+    <section id="bab5" aria-labelledby="b5">
+        <h2 id="b5">BAB 5: SMART MONEY STRATEGY</h2>
+    </section>
+
+    <section id="smart1" aria-labelledby="s1">
+        <h2 id="s1">SMART MONEY STRATEGY #1: Mengapa Penting Mempelajari Aksi Orang yang Lebih Berkuasa</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></svg>
+        </div>
+        <p>Di dunia ini, ada hierarki kekuasaan. Ada yang lebih berkuasa, ada yang tidak. Di pasar kripto juga sama. Ada smart money (VC, Hedge Fund, Market Maker), ada juga ritel. Smart money selalu satu langkah di depan. Itulah mengapa penting untuk "mengikuti jejak" mereka.</p>
+        <p>Smart money selalu berinvestasi pada tahap "seed round" atau pendanaan awal. Mereka memperoleh harga jauh di bawah harga listing. Mereka juga yang menentukan kapan "saat yang tepat" untuk menaikkan harga. Mereka bisa "memainkan" harga di pasar. Mempelajari aksi mereka penting karena mereka adalah "pembuat pasar". Mereka yang memiliki uang, merekalah yang berkuasa.</p>
+    </section>
+
+    <section id="bab6" aria-labelledby="b6">
+        <h2 id="b6">BAB 6: RONALD CAPITAL INVESTMENTS</h2>
+    </section>
+
+    <section id="ronald1" aria-labelledby="r1">
+        <h2 id="r1">RONALD CAPITAL INVESTMENTS #1: Pembahasan Tentang Apa Yang Kita Investasikan</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg>
+        </div>
+        <p>Pada bab ini akan dijelaskan studi kasus portofolio yang sedang kami bangun di Ronald Capital. Kami akan menjelaskan alasan kami memilih beberapa altcoin untuk dimasukkan dalam portofolio, serta bagaimana kami melakukan diversifikasi naratif dan kapitalisasi.</p>
+        <p>Portofolio kami saat ini berfokus pada 4 naratif utama: AI, RWA, Gaming, dan Layer-1. Kami percaya keempat naratif ini memiliki potensi besar di siklus bull run 2024-2025. Setiap naratif memiliki "jagoan"-nya masing-masing. Di bab ini, kami akan bedah satu per satu.</p>
+    </section>
+    
+    <section id="ronald2" aria-labelledby="r2">
+        <h2 id="r2">RONALD CAPITAL INVESTMENTS #2: Render ($RNDR)</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+        </div>
+        <p>Render ($RNDR) adalah proyek DePin yang berfokus pada penyediaan layanan GPU terdesentralisasi. Render Network menghubungkan pengguna yang membutuhkan daya komputasi GPU (kreator) dengan mereka yang memiliki GPU idle (node operator). Ini menciptakan pasar yang efisien dan lebih murah dibandingkan layanan rendering terpusat.</p>
+        <p>Potensi Render sangat besar. Permintaan akan layanan rendering terus meningkat seiring berkembangnya industri game, film, dan metaverse. Selain itu, Render juga memiliki kaitan erat dengan naratif AI, karena pelatihan model AI membutuhkan daya komputasi GPU yang masif. Keterlibatan Apple dalam Vision Pro juga menjadi katalis positif bagi Render. Kami melihat Render sebagai salah satu "blue chip" di sektor DePin dan AI.</p>
+    </section>
+    
+    <section id="ronald3" aria-labelledby="r3">
+        <h2 id="r3">RONALD CAPITAL INVESTMENTS #3: Bitget Token ($BGB)</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+        </div>
+        <p>Bitget Token ($BGB) adalah token utilitas dari bursa Bitget. Memegang $BGB memberikan berbagai keuntungan, seperti diskon biaya trading, akses ke launchpad, dan partisipasi dalam program staking. Kami melihat $BGB sebagai investasi yang "aman" dengan potensi kenaikan yang stabil.</p>
+        <p>Bursa kripto adalah salah satu bisnis paling menguntungkan di ekosistem ini. Selama pasar bullish, volume perdagangan meningkat drastis, yang berarti pendapatan bursa juga meningkat. Ini berdampak positif pada harga token bursa. Kami memilih Bitget karena pertumbuhan penggunanya yang pesat dan inovasi produk yang terus menerus. Bagi kami, $BGB adalah cara untuk "bertaruh pada rumah" (betting on the house).</p>
+    </section>
+
+    <section id="ronald4" aria-labelledby="r4">
+        <h2 id="r4">RONALD CAPITAL INVESTMENTS #4: Ondo ($ONDO)</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+        </div>
+        <p>Ondo Finance adalah platform DeFi yang berfokus pada tokenisasi aset dunia nyata (RWA), khususnya produk keuangan kelas institusional seperti obligasi pemerintah AS. Ondo menjembatani kesenjangan antara keuangan tradisional (TradFi) dan keuangan terdesentralisasi (DeFi).</p>
+        <p>Kami sangat bullish pada naratif RWA. Ini adalah salah satu naratif yang paling mudah dipahami oleh investor institusional. Keterlibatan raksasa seperti BlackRock dalam RWA adalah sinyal yang sangat kuat. Ondo, dengan produknya yang solid dan kemitraan strategis, berada di posisi yang sangat baik untuk menjadi pemimpin di sektor ini. Investasi pada $ONDO adalah investasi pada masa depan di mana aset triliunan dolar dari pasar tradisional akan masuk ke blockchain.</p>
+    </section>
+
+    <section id="ronald5" aria-labelledby="r5">
+        <h2 id="r5">RONALD CAPITAL INVESTMENTS #5: Manta ($MANTA)</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M13 6h3a2 2 0 0 1 2 2v7"></path><line x1="6" y1="9" x2="6" y2="21"></line></svg>
+        </div>
+        <p>Manta Network adalah blockchain layer-2 modular yang dibangun menggunakan teknologi Zero-Knowledge (ZK). Manta menawarkan solusi skalabilitas tinggi dengan biaya transaksi yang rendah, sambil tetap menjaga privasi pengguna. Ekosistem Manta berkembang pesat dengan banyak dApps yang dibangun di atasnya.</p>
+        <p>Kami memilih $MANTA karena beberapa alasan. Pertama, teknologi modular dan ZK adalah masa depan skalabilitas Ethereum. Kedua, Manta memiliki komunitas yang kuat dan dukungan dari venture capital terkemuka. Ketiga, sebagai layer-2, Manta akan mendapat manfaat dari pertumbuhan ekosistem Ethereum secara keseluruhan. Kami melihat $MANTA sebagai salah satu layer-2 paling menjanjikan di luar Arbitrum dan Optimism.</p>
+    </section>
+
+    <section id="ronald6" aria-labelledby="r6">
+        <h2 id="r6">RONALD CAPITAL INVESTMENTS #6: Room for Error</h2>
+        <div class="block" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+        </div>
+        <p>Penting untuk diingat bahwa tidak ada investasi tanpa risiko. Pasar altcoin sangat fluktuatif dan tidak dapat diprediksi. Meskipun kami telah melakukan riset mendalam, selalu ada kemungkinan bahwa tesis investasi kami salah. Mungkin ada proyek pesaing yang lebih baik, masalah teknis, atau perubahan regulasi yang tidak terduga.</p>
+        <p>Oleh karena itu, sangat penting untuk selalu melakukan riset sendiri (Do Your Own Research - DYOR) dan tidak pernah berinvestasi lebih dari yang Anda sanggup untuk kehilangan. Manajemen risiko yang baik, seperti diversifikasi dan menetapkan stop-loss, adalah kunci untuk bertahan dalam jangka panjang di pasar ini. Portofolio ini adalah pandangan kami, bukan nasihat keuangan.</p>
+    </section>
+
+    <div class="block">
+      <a href="#" class="buyLink" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="9" cy="21" r="1" />
+          <circle cx="20" cy="21" r="1" />
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+        </svg>
+        Dapatkan Buku Aslinya
+      </a>
+    </div>
+  </article>
+</div>
+</body>
+</html>
